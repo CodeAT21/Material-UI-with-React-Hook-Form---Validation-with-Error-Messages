@@ -56,7 +56,7 @@ const App = () => {
 {/* Radio button */}
         <FormControl error={Boolean(errors.gender)} >
           <FormLabel component="legend"> Choose Your Gender </FormLabel>
-          <RadioGroup row aria-label="gender" name="row-radio-buttons-group">
+          <RadioGroup row aria-label="gender" name="gender">
             <FormControlLabel 
               value="female" 
               control={
